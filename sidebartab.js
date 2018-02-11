@@ -1,5 +1,3 @@
-//<![CDATA[
-
   var tab1 = $("#sidebartab-item1");
   var tab2 = $("#sidebartab-item2");
   var tabWidget = document.querySelectorAll(".sidebartabs-wrapper .section .widget");
@@ -31,6 +29,3 @@
   bars.on("click", function () {
     navMenu.slideToggle();
   });
-
-
-//]]>

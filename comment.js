@@ -1,5 +1,3 @@
-//<![CDATA[
-
 var bloggerSection = document.getElementById("blogger-section");
 var facebookSection = document.getElementById("facebook-section");
 
@@ -32,5 +30,3 @@ facebookTab.addEventListener("click", function () {
 
   } 
 });
-
-//]]>
