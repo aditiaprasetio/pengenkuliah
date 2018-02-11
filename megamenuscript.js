@@ -1,5 +1,3 @@
-//<![CDATA[
-
 var theLabel = $("#main-nav li a");
 
   theLabel.each( function (f) {
@@ -58,6 +56,3 @@ var theLabel = $("#main-nav li a");
     }
 
 });
-
-
-//]]>
