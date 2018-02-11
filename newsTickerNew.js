@@ -108,7 +108,7 @@ var leftOrRight = htmlElement.getAttribute('&quot;dir&quot;');
   
   if(leftOrRight === '&quot;ltr&quot;') {
     jQuery(function(){
-      jQuery(&#39;#news-ticker&#39;).webTicker({
+      jQuery('#news-ticker').webTicker({
              speed: 100,
              });
     });
@@ -116,7 +116,7 @@ var leftOrRight = htmlElement.getAttribute('&quot;dir&quot;');
 
   if(leftOrRight === '&quot;rtl&quot;') {
     jQuery(function(){
-      jQuery(&#39;#news-ticker&#39;).webTicker({
+      jQuery('#news-ticker').webTicker({
              speed: 100,
              direction: '&quot;right&quot';
              });
